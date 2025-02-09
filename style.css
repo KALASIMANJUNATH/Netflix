@@ -1,0 +1,292 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    background-color: black;    
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg>img{
+    position: relative;
+    opacity: 20%;
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+}
+.head{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+.net>img{
+  width: 180px;
+  height: 120px;
+  margin-top:-35px;
+  object-fit: cover;
+  padding: 0px;
+}
+.eng{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 5px; 
+}
+.sign>button{ 
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 5px; 
+    background-color: red;
+    
+}
+.head-right{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 800px;
+}
+.section1{
+    height: 330px;
+    margin: 50px auto;
+    text-align:center;
+    position: absolute;
+    top: 0;
+    margin-top: 200px;
+    margin-left: 300px;
+    
+}
+.child1{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.p1{
+    width: 550px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px auto;
+}
+.inp1{
+    background-color:black;
+    height:30px ;
+    width: 250px;
+    border-radius: 10px; 
+}
+.btn1{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    height: 35px;
+    border-radius: 10px; 
+}
+.section3{
+    width: 1000px;
+    margin: 0px auto;
+}
+.section2{
+    width: 1000px;
+    margin: 0px auto;
+}
+.child2{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+
+}
+.child2>img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.child3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.ch{
+    width: 200px;
+    height: 220px;
+    background-color: RGB(32, 17, 29);;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card{
+    width: 1000px;
+    height: 60px;
+    background-color:RGB(45, 45, 45);
+    margin: 7px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10px;
+    border-radius: 5px;
+}
+.section4{
+    width: 1000px;
+    margin: 0px auto;
+}
+.section5{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.child5{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+.inp2{
+    background-color: black;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px; 
+}
+.btn2{
+    background-color: red;
+    width: 100px;
+    height: 32px;  
+    border-radius: 10px; 
+    color: white;
+}
+.section6{
+    width: 1000px;
+    height: 200px;
+    margin: 0px auto;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+}
+.ft1{
+    width: 150px;
+    line-height: 15px;
+}
+a{
+    color: white;
+    
+}
+
+@media (max-width: 576px) {
+    body {
+        text-align: center;
+    }
+
+    .bg > img {
+        height: 400px;
+        width: 380px;
+    }
+
+    .head {
+       width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .net > img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .head-right {
+        margin-left: 0;
+        margin-top: -30px;
+    }
+
+    .section1 {
+        margin-left: 0;
+        margin-top: 100px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .p1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .child1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .inp1 {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .btn1 {
+        width: 80%;
+    }
+    .section5{
+
+    }
+    .section2,
+    .section3,
+    .section4,
+    .section6 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .child2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .child2 > img {
+        width: 250px;
+        height: 250px;
+        margin-top: 25px;
+    }
+
+    .child3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .ch {
+        width: 320px;
+        margin: 5px 0;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .child5 {
+        flex-wrap: wrap;
+        width: 350px;
+    }
+
+    .inp2,
+    .btn2 {
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ft1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

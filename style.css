@@ -196,7 +196,7 @@ a{
         margin-left: 40px;
         border: none;
     }
-    .sign{
+    .sign>button{
         border: none;
     }
     .net > img {

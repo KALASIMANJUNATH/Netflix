@@ -192,17 +192,20 @@ a{
         display: flex;
         justify-content: space-between;
     }
-
+    .eng{
+        margin-left: 35px;
+    }
     .net > img {
         width: 150px;
         height: 100px;
     }
 
     .head-right {
+        display: flex;
+        justify-content: space-between;
         margin-left: 0;
         margin-top: -30px;
     }
-
     .section1 {
         margin-left: 0;
         margin-top: 100px;

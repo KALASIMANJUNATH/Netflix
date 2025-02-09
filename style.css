@@ -193,7 +193,11 @@ a{
         justify-content: space-between;
     }
     .eng{
-        margin-left: 35px;
+        margin-left: 40px;
+        border: none;
+    }
+    .sign{
+        border: none;
     }
     .net > img {
         width: 150px;
@@ -227,10 +231,12 @@ a{
     .inp1 {
         width: 80%;
         margin-bottom: 10px;
+        border: none;
     }
 
     .btn1 {
         width: 80%;
+        border:none ;
     }
     .section5{
 
@@ -280,6 +286,7 @@ a{
     .btn2 {
         width: 80%;
         margin: 5px 0;
+        border: none;
     }
 
     .footer {
